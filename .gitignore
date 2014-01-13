@@ -1,0 +1,6 @@
+.project
+.pydevproject
+.settings
+dist/
+django_yutils.egg-info/
+*.pyc
