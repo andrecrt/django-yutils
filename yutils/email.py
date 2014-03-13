@@ -39,7 +39,7 @@ class EmailMessage:
         """
         
         # Build message and send.
-        mandrill_client = mandrill.Mandrill(settings.MANDRILL_API_KEY)
+        mandrill_client = mandrill.Mandrill(settings.YUTILS['mandrill_api_key'])
         message = {
              'auto_html': True,
              'auto_text': False,

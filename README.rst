@@ -54,6 +54,12 @@ settings.py
             }
         }
     }
+   
+3. Configure YUTILS's settings::
+
+    YUTILS = {
+    	'mandrill_api_key': '{{ API_KEY }}'
+    }
     
 Logs
 ----
